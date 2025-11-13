@@ -7,6 +7,39 @@ This script downloads a dataset of hand-drawn sketches (e.g., *cat*, *car*, *tre
 
 ---
 
+## Demo
+
+Below are examples of results produced by the GAN after training for 2000 epochs.  
+Each image shows the generator's progress at different training stages.
+
+### 🍐 Generated "Pear" Sketches
+<p align="center">
+  <img src="results/pear1.png" width="120"/>
+  <img src="results/pear2.png" width="120"/>
+  <img src="results/pear3.png" width="120"/>
+  <img src="results/pear4.png" width="120"/>
+  <img src="results/pear5.png" width="120"/>
+</p>
+<p align="center">
+  <b>Epochs:</b> 400 &nbsp;&nbsp;|&nbsp;&nbsp; 800 &nbsp;&nbsp;|&nbsp;&nbsp; 1200 &nbsp;&nbsp;|&nbsp;&nbsp; 1600 &nbsp;&nbsp;|&nbsp;&nbsp; 2000
+</p>
+<p align="center"><em>Generated pear-like doodles showing progressive improvement over epochs.</em></p>
+
+### 🚗 Generated "Car" Sketches
+<p align="center">
+  <img src="results/car1.png" width="120"/>
+  <img src="results/car2.png" width="120"/>
+  <img src="results/car3.png" width="120"/>
+  <img src="results/car4.png" width="120"/>
+  <img src="results/car5.png" width="120"/>
+</p>
+<p align="center">
+  <b>Epochs:</b> 400 &nbsp;&nbsp;|&nbsp;&nbsp; 800 &nbsp;&nbsp;|&nbsp;&nbsp; 1200 &nbsp;&nbsp;|&nbsp;&nbsp; 1600 &nbsp;&nbsp;|&nbsp;&nbsp; 2000
+</p>
+<p align="center"><em>Generated car-like doodles showing progressive improvement over epochs.</em></p>
+
+---
+
 ## Features
 
 - **Generator**:
@@ -74,38 +107,6 @@ Epoch 400/2000 - Showing generated images...
 
 ---
 
-## Results
-
-Below are examples of results produced by the GAN after training for 2000 epochs on the **QuickDraw** dataset.  
-Each image shows the generator's progress at different training stages.
-
-### 🍐 Generated "Pear" Sketches
-<p align="center">
-  <img src="results/pear1.png" width="120"/>
-  <img src="results/pear2.png" width="120"/>
-  <img src="results/pear3.png" width="120"/>
-  <img src="results/pear4.png" width="120"/>
-  <img src="results/pear5.png" width="120"/>
-</p>
-<p align="center">
-  <b>Epochs:</b> 400 &nbsp;&nbsp;|&nbsp;&nbsp; 800 &nbsp;&nbsp;|&nbsp;&nbsp; 1200 &nbsp;&nbsp;|&nbsp;&nbsp; 1600 &nbsp;&nbsp;|&nbsp;&nbsp; 2000
-</p>
-<p align="center"><em>Generated pear-like doodles showing progressive improvement over epochs.</em></p>
-
-### 🚗 Generated "Car" Sketches
-<p align="center">
-  <img src="results/car1.png" width="120"/>
-  <img src="results/car2.png" width="120"/>
-  <img src="results/car3.png" width="120"/>
-  <img src="results/car4.png" width="120"/>
-  <img src="results/car5.png" width="120"/>
-</p>
-<p align="center">
-  <b>Epochs:</b> 400 &nbsp;&nbsp;|&nbsp;&nbsp; 800 &nbsp;&nbsp;|&nbsp;&nbsp; 1200 &nbsp;&nbsp;|&nbsp;&nbsp; 1600 &nbsp;&nbsp;|&nbsp;&nbsp; 2000
-</p>
-<p align="center"><em>Generated car-like doodles showing progressive improvement over epochs.</em></p>
-
----
 
 ## References
 
