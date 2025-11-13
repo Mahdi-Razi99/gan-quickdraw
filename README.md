@@ -91,11 +91,10 @@ python3 gan.py cat
 This will:
 1. Download `cat.npy` from Google’s QuickDraw dataset.  
 2. Train the GAN on the sketches of cats.  
-3. Display generated cat-like doodles every few epochs.  
+3. Display generated cat-like doodles every few epochs.
 
----
 
-## Output
+### Output
 
 Every 400 epochs, the script shows a 4×4 grid of generated images similar to this:
 
@@ -107,10 +106,6 @@ Epoch 400/2000 - Showing generated images...
 
 ---
 
-
 ## References
 
 - [Google QuickDraw Dataset](https://github.com/googlecreativelab/quickdraw-dataset)
-
----
-
